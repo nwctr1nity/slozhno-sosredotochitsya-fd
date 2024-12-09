@@ -14,13 +14,14 @@
   --rec-display: block;
   --font-size-l: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   --font-size-m: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
-  --font-family: "IBM Plex Mono", sans-serif;
+  --font-family: 'IBM Plex Mono', sans-serif;
   --offset: 10px;
   --offset-m: 40px;
   --offset-l: 50px;
 }
 
 @media (width >= 768px) {
+
   :root {
     --offset-m: 60px;
     --offset-l: 80px;
