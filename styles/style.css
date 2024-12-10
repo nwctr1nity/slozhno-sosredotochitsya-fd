@@ -6,9 +6,8 @@
   font-family: var(--font-family);
   background-color: var(--bg-color);
   background-image: var(--bg-image);
-  background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; 
   background-attachment: fixed;
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
@@ -198,6 +197,7 @@
   grid-template-columns: 1fr;
   gap: var(--offset);
   padding: 0 var(--offset) 40px;
+  max-block-size: 1151px;
 }
 
 .gallery__item {
