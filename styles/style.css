@@ -1,11 +1,12 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
+  position: static;
   font-family: var(--font-family);
-  background-color: var(--bg-color);
+  background-color: var(--bg-color-main);
   background-image: var(--bg-image);
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
   background-attachment: fixed;
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
@@ -21,6 +22,11 @@
   block-size: 100vh;
 }
 
+.header__title {
+  justify-self: flex-start;
+  max-inline-size: fit-content;
+}
+
 .title-decor {
   justify-self: center;
   color: var(--title-color);
@@ -28,14 +34,9 @@
   font-weight: 700;
   font-size: var(--font-size-l);
   line-height: 0.825em;
-  text-shadow: 4px 4px 0 var(--title-shadow-color);
+  text-shadow: 4px 4px 0 var(--accent-color);
   block-size: fit-content;
   inline-size: calc(100vw - 20px);
-}
-
-.header__title {
-  justify-self: flex-start;
-  max-inline-size: fit-content;
 }
 
 .header__recording-icon {
@@ -315,6 +316,10 @@
 
   .header__title {
     align-self: center;
+  }
+
+  .title-decor {
+    text-shadow: 4px 4px 0 var(--title-shadow-color);
   }
 
   .header__description {

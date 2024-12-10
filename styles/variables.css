@@ -11,6 +11,7 @@
   --header__menu-button-color: var(--accent-color);
   --title-color: #db00ff;
   --bg-color: #000028;
+  --bg-color-main: #000028;
   --text-color: #f1b2ce;
   --rec-display: block;
   --font-size-l: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);

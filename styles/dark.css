@@ -16,6 +16,7 @@
   --header__menu-button-color: var(--accent-color);
   --title-color: #db00ff;
   --bg-color: #000028;
+  --bg-color-main: #000028;
   --text-color: #f1b2ce;
   --rec-display: block;
 }
@@ -29,6 +30,7 @@
   --header__menu-button-color: var(--accent-color);
   --title-color: #db00ff;
   --bg-color: #000028;
+  --bg-color-main: #000028;
   --text-color: #f1b2ce;
   --rec-display: block;
 }
