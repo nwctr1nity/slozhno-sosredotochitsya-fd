@@ -9,41 +9,42 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --bg-image: url(/images/cover-image-light.png);
+  --bg-image: url(./images/cover-image-light.png);
   --accent-color: #ff8dcb;
   --title-shadow-color: #ff0070;
-  --content-title-main-color: var(--text-color);
-  --header__menu-button-color: var(--text-color);
   --title-color: #ffc2e6;
   --bg-color: #353430;
   --bg-color-main: #ffeef6;
   --text-color: #353430;
   --rec-display: none;
+  --content-title-main-color: var(--text-color);
+  --header-menu-button-color: var(--text-color);
 }
 
 :root.theme-light {
-  --bg-image: url(/images/cover-image-light.png);
+  --bg-image: url(./images/cover-image-light.png);
   --accent-color: #ff8dcb;
   --title-shadow-color: #ff0070;
-  --content-title-main-color: var(--text-color);
-  --header__menu-button-color: var(--text-color);
   --title-color: #ffc2e6;
   --bg-color: #353430;
   --bg-color-main: #ffeef6;
   --text-color: #353430;
   --rec-display: none;
+  --content-title-main-color: var(--text-color);
+  --header-menu-button-color: var(--text-color);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-image: url(/images/cover-image-light.png);
+    --bg-image: url(./images/cover-image-light.png);
     --accent-color: #ff8dcb;
     --title-shadow-color: #ff0070;
-    --content-title-main-color: var(--text-color);
     --title-color: #ffc2e6;
     --bg-color: #353430;
     --bg-color-main: #ffeef6;
     --text-color: #353430;
     --rec-display: none;
+    --content-title-main-color: var(--text-color);
+    --header-menu-button-color: var(--text-color);
   }
 }
