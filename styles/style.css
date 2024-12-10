@@ -197,7 +197,6 @@
   grid-template-columns: 1fr;
   gap: var(--offset);
   padding: 0 var(--offset) 40px;
-  max-block-size: 1151px;
 }
 
 .gallery__item {
@@ -345,5 +344,9 @@
 
   .content__article:nth-of-type(5) {
     grid-column: 3;
+  }
+
+  .gallery {
+    max-block-size: 1151px;
   }
 }
