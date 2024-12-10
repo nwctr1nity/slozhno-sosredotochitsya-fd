@@ -12,7 +12,7 @@
 }
 
 .theme_light.page {
-  --bg-image: url(./images/cover-image-light.png);
+  --bg-image: url(../images/cover-image-light.png);
 }
 
 .header {
@@ -20,11 +20,6 @@
   display: grid;
   grid-template-columns: 1fr;
   block-size: 100vh;
-}
-
-.header__title {
-  justify-self: flex-start;
-  max-inline-size: fit-content;
 }
 
 .title-decor {
@@ -37,6 +32,11 @@
   text-shadow: 4px 4px 0 var(--accent-color);
   block-size: fit-content;
   inline-size: calc(100vw - 20px);
+}
+
+.header__title {
+  justify-self: flex-start;
+  max-inline-size: fit-content;
 }
 
 .header__recording-icon {
@@ -124,10 +124,6 @@
   padding: 75px var(--offset) 0 0;
 }
 
-.header__description {
-  inline-size: calc(100% - 20px);
-}
-
 .text-decor {
   justify-self: center;
   color: var(--bg-color);
@@ -137,6 +133,10 @@
   background-color: var(--accent-color);
   block-size: fit-content;
   inline-size: 100%;
+}
+
+.header__description {
+  inline-size: calc(100% - 20px);
 }
 
 .content {
