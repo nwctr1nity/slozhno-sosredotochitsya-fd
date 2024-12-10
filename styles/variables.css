@@ -4,10 +4,11 @@
 */
 
 :root {
-  --bg-image: url(../images/cover-image-dark.png);
+  --bg-image: url(/images/cover-image-dark.png);
   --accent-color: #ff0070;
   --title-shadow-color: var(--accent-color);
   --content-title-main-color: var(--accent-color);
+  --header__menu-button-color: var(--accent-color);
   --title-color: #db00ff;
   --bg-color: #000028;
   --text-color: #f1b2ce;
@@ -17,14 +18,11 @@
   --font-family: 'IBM Plex Mono', sans-serif;
   --offset: 10px;
   --offset-m: 40px;
-  --offset-l: 50px;
 }
 
 @media (width >= 768px) {
-
   :root {
     --offset-m: 60px;
-    --offset-l: 80px;
     --offset: 20px;
   }
 }

@@ -12,10 +12,23 @@
   --accent-color: #ff8dcb;
   --title-shadow-color: #ff0070;
   --content-title-main-color: var(--text-color);
+  --header__menu-button-color: var(--text-color);
   --title-color: #ffc2e6;
   --bg-color: #353430;
   --text-color: #353430;
   --rec-display: none;
+}
+
+:root.theme-light {
+  /* Переменные светлой темы */  
+  --accent-color: #ff8dcb;
+  --title-shadow-color: #ff0070;
+  --content-title-main-color: var(--text-color);
+  --header__menu-button-color: var(--text-color);
+  --title-color: #ffc2e6;
+  --bg-color: #353430;
+  --text-color: #353430;
+  --rec-display: none;  
 }
 
 @media (prefers-color-scheme: light) {

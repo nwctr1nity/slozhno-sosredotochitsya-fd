@@ -35,8 +35,25 @@ picture {
 
 button,
 a {
+  text-decoration: none;
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+button:focus-visible {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+a:focus-visible {
+  outline: none;
 }
