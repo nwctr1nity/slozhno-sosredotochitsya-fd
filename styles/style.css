@@ -1,8 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  z-index: -1;
-  opacity: 1;
   font-family: var(--font-family);
   background-color: var(--bg-color);
   background-image: var(--bg-image);
@@ -13,7 +11,7 @@
 }
 
 .theme_light.page {
-  background-image: url(/images/cover-image-light.png);
+  --bg-image: url(/images/cover-image-light.png);
 }
 
 .header {
@@ -62,7 +60,7 @@
   height: 10px;
   border-radius: 50%;
   box-shadow: 0 0 4px 2px var(--accent-color);
-  background: var(--accent-color);
+  background-color: var(--accent-color);
 }
 
 .decorated-zone::after {
