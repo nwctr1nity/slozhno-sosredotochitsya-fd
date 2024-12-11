@@ -9,7 +9,7 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --bg-image: url(../images/cover-image-dark.png);
+  --bg-image: url(/images/cover-image-dark.png);
   --accent-color: #ff0070;
   --title-color: #db00ff;
   --bg-color: #000028;
@@ -23,7 +23,7 @@
 
 :root.theme-dark {
   /* Дублируем переменные для тёмной темы */
-  --bg-image: url(../images/cover-image-dark.png);
+  --bg-image: url(/images/cover-image-dark.png);
   --accent-color: #ff0070;
   --title-color: #db00ff;
   --bg-color: #000028;

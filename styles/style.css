@@ -11,7 +11,7 @@
 }
 
 .theme_light.page {
-  --bg-image: url(../images/cover-image-light.png);
+  --bg-image: url(/images/cover-image-light.png);
 }
 
 .header {
