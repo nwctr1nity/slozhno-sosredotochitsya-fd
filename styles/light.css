@@ -19,6 +19,10 @@
   --header-menu-button-color: var(--text-color);
 }
 
+.theme_light.page {
+  background-image: url(../images/cover-image-light.png);
+} 
+
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #ff8dcb;
@@ -31,4 +35,7 @@
     --content-title-main-color: var(--text-color);
     --header-menu-button-color: var(--text-color);
   }
+  .theme_light.page {
+    background-image: url(../images/cover-image-light.png);
+  } 
 }
