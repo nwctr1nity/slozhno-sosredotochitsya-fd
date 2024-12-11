@@ -3,14 +3,16 @@
 .page {
   font-family: var(--font-family);
   background-image: url(/images/cover-image-dark.png);
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
 
 .theme_light.page {
-  --bg-image: url(/images/cover-image-light.png);
+  background-image: url(/images/cover-image-light.png);
 } 
 
 .header {
