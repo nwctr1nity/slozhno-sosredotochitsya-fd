@@ -2,8 +2,7 @@
 
 .page {
   font-family: var(--font-family);
-  background-color: var(--bg-color-main);
-  background-image: var(--bg-image);
+  background-image: url(/images/cover-image-dark.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -12,7 +11,7 @@
 
 .theme_light.page {
   --bg-image: url(/images/cover-image-light.png);
-}
+} 
 
 .header {
   position: relative;
