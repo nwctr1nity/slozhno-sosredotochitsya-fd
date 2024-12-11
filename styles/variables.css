@@ -14,15 +14,17 @@
   --title-shadow-color: var(--accent-color);
   --content-title-main-color: var(--accent-color);
   --header-menu-button-color: var(--accent-color);
-  --font-size-l: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
+  --font-size-l: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --font-size-m: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   --font-family: 'IBM Plex Mono', sans-serif;
   --offset: 10px;
+  --offset-s: 30px;
   --offset-m: 40px;
 }
 
 @media (width >= 768px) {
   :root {
+    --font-size-l: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
     --offset-m: 60px;
     --offset: 20px;
   }
