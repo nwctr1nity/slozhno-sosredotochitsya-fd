@@ -113,8 +113,12 @@
   block-size: 26px;
 }
 
+.header__theme-menu-button:hover {
+  border: 1px solid var(--header-menu-button-color-40);
+}
+
 .header__theme-menu-button:focus-visible {
-  border: 1px solid var(--header-menu-button-color);
+  border-bottom: 1px solid var(--header-menu-button-color);
 }
 
 .header__theme-menu-button_active {

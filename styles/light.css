@@ -17,6 +17,7 @@
   --rec-display: none;
   --content-title-main-color: var(--text-color);
   --header-menu-button-color: var(--text-color);
+  --header-menu-button-color-40: rgba(53, 52, 48, 0.4);
 }
 
 @media (prefers-color-scheme: light) {
@@ -34,4 +35,3 @@
   .theme_light.page {
     background-image: url(../images/cover-image-light.png);
   } 
-}

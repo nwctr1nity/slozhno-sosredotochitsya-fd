@@ -12,6 +12,7 @@
   --title-shadow-color: var(--accent-color);
   --content-title-main-color: var(--accent-color);
   --header-menu-button-color: var(--accent-color);
+  --header-menu-button-color-40: rgba(255, 0, 112, .4);
   --font-size-l: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   --font-size-m: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   --font-family: 'IBM Plex Mono', sans-serif;

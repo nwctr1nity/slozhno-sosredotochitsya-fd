@@ -22,4 +22,5 @@
   --title-shadow-color: var(--accent-color);
   --content-title-main-color: var(--accent-color);
   --header-menu-button-color: var(--accent-color);
+  --header-menu-button-color-40: rgba(255, 0, 112, .4);
 }
