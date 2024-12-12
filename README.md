@@ -1,1 +1,1 @@
-https://github.com/nwctr1nity/slozhno-sosredotochitsya
+https://github.com/nwctr1nity/slozhno-sosredotochitsya-fd
