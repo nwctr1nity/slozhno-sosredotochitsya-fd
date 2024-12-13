@@ -7,22 +7,24 @@
   --accent-color: #ff0070;
   --title-color: #db00ff;
   --bg-color: #000028;
+  --bg-image: url(../images/cover-image-dark.png);
   --plate-text-color: #000028;
   --text-color: #f1b2ce;
   --rec-display: block;
-  --title-shadow-color: var(--accent-color);
-  --content-title-main-color: var(--accent-color);
-  --header-menu-button-color: var(--accent-color);
-  --header-menu-button-color-40: rgba(255, 0, 112, .4);
+  --title-shadow-color: #ff0070;
+  --content-title-main-color: #ff0070;
+  --header-menu-button-color: #ff0070;
+  --header-menu-button-color-40: rgb(255 0 112 / 0.4);
   --font-size-l: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   --font-size-m: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
-  --font-family: 'IBM Plex Mono', sans-serif;
+  --font-family: 'IBM Plex Mono', monospace, sans-serif;
   --offset: 10px;
   --offset-s: 30px;
   --offset-m: 40px;
 }
 
 @media (width >= 768px) {
+
   :root {
     --font-size-l: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     --offset-m: 60px;
@@ -31,6 +33,7 @@
 }
 
 @media (width >= 1024px) {
+
   :root {
     --font-size-l: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   }

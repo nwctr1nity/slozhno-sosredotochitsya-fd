@@ -9,8 +9,8 @@
     "format": "prettier --write './**/*.{html,css,js}'",
     "lint": "stylelint **/*.css",
     "lintfix": "stylelint **/*.css --fix",
-    "checkAll": "npm run check && npm run lint",
-    "fixAll": "npm run format && npm run lintfix"
+    "checkall": "npm run check && npm run lint",
+    "fixall": "npm run format && npm run lintfix"
   },
   "author": "",
   "license": "ISC",
