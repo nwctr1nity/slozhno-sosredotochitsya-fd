@@ -13,8 +13,8 @@
   --rec-display: block;
   --title-shadow-color: #ff0070;
   --content-title-main-color: #ff0070;
-  --header-menu-button-color: #ff0070;
-  --header-menu-button-color-40: rgb(255 0 112 / 0.4);
+  --menu-button-color: #ff0070;
+  --menu-button-color-hover: rgb(255 0 112 / 0.4);
   --font-size-l: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   --font-size-m: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   --font-family: 'IBM Plex Mono', monospace, sans-serif;

@@ -18,8 +18,8 @@
   --text-color: #353430;
   --rec-display: none;
   --content-title-main-color: #353430;
-  --header-menu-button-color: #353430;
-  --header-menu-button-color-40: rgb(53 52 48 / 0.4);
+  --menu-button-color: #353430;
+  --menu-button-color-hover: rgb(53 52 48 / 0.4);
 }
 
 @media (prefers-color-scheme: light) {
@@ -34,7 +34,7 @@
     --text-color: #353430;
     --rec-display: none;
     --content-title-main-color: #353430;
-    --header-menu-button-color: #353430;
-    --header-menu-button-color-40: rgb(53 52 48 / 0.4);
+    --menu-button-color: #353430;
+    --menu-button-color-hover: rgb(53 52 48 / 0.4);
   }
 }
