@@ -183,6 +183,7 @@
 .content__title-main {
   color: var(--content-title-main-color);
   background-color: transparent;
+  grid-column: 1;
 }
 
 .content__article {
@@ -195,6 +196,7 @@
 .content__section {
   display: grid;
   grid-template-columns: 1fr;
+  grid-auto-rows: min-content;
   gap: 20px;
 }
 
